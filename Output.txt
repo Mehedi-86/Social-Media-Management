@@ -1,0 +1,206 @@
+Welcome to the Social Network!
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+1
+Enter User ID: 
+12
+Enter Username: 
+mehedi
+Enter Password: 
+123
+User mehedi with ID 12 added to the social network.
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+1
+Enter User ID: 
+123
+Enter Username: 
+hasan
+Enter Password: 
+1234
+User hasan with ID 123 added to the social network.
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+2
+Enter User ID: 
+12
+Enter Password: 
+12
+Authentication failed. Post not added.
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+2
+Enter User ID: 
+12 
+Enter Password: 
+123
+Enter Text Post Content: 
+hey
+Enter Date and Time (e.g., 2023-07-29 12:00): 
+ 2023-07-29 12:00
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+3
+Enter User ID: 
+123
+Enter Password: 
+1234
+Enter Image Post Content: 
+hello
+Enter Date and Time (e.g., 2023-07-29 12:00): 
+ 2023-07-29 12:00
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+3
+Enter User ID: 
+12
+Enter Password: 
+123
+Enter Image Post Content: 
+i am there
+Enter Date and Time (e.g., 2023-07-29 12:00): 
+ 2023-07-29 12:00
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+2
+Enter User ID: 
+123
+Enter Password: 
+1234 
+Enter Text Post Content: 
+go to home
+Enter Date and Time (e.g., 2023-07-29 12:00): 
+ 2023-07-29 12:00
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+4
+Enter User ID to Display Posts: 
+12
+Posts by User ID 12:
+[Text Post] User 12 posted: hey (Posted on:  2023-07-29 12:00)
+[Image Post] User 12 posted: i am there (Posted on:  2023-07-29 12:00)
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+4
+Enter User ID to Display Posts: 
+123
+Posts by User ID 123:
+[Image Post] User 123 posted: hello (Posted on:  2023-07-29 12:00)
+[Text Post] User 123 posted: go to home (Posted on:  2023-07-29 12:00)
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+5
+All Posts:
+[Text Post] User 12 posted: hey (Posted on:  2023-07-29 12:00)
+[Image Post] User 123 posted: hello (Posted on:  2023-07-29 12:00)
+[Image Post] User 12 posted: i am there (Posted on:  2023-07-29 12:00)
+[Text Post] User 123 posted: go to home (Posted on:  2023-07-29 12:00)
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+6
+Enter sender's User ID: 
+12
+Enter receiver's User ID: 
+123
+mehedi sent a friend request to hasan.
+
+Menu:
+1. Add User
+2. Add Text Post
+3. Add Image Post
+4. Display User Posts
+5. Display All Posts
+6. Send Friend Request
+7. Exit
+Enter your choice: 
+7
+Social Network object deleted.
+
