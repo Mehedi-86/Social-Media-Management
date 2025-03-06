@@ -1,41 +1,36 @@
-# Social-Media-Management
-📌 README: Student Database Management System
-📖 Introduction
-The Student Database Management System is a C++ program that allows users to store, retrieve, update, and delete student records using an unordered_map for efficient data management.
+<h1>📌 Student Database Management System</h1>
 
-This program provides a menu-driven interface for performing various operations on student records, including inserting students, searching by ID, updating grades, and displaying all students.
+<h2>📖 Introduction</h2>
+<p>The Student Database Management System is a C++ program that allows users to store, retrieve, update, and delete student records using an <strong>unordered_map</strong> for efficient data management. The system provides a menu-driven interface to perform various operations on student records, such as inserting, searching, updating grades, and displaying all records.</p>
 
-⚡ Features
-✅ Insert Student → Add student ID & grade to the database.
-✅ Delete Student → Remove a student from the database using their ID.
-✅ Search Student → Find a student by their ID and display their grade.
-✅ Update Grade → Modify the grade of an existing student.
-✅ Display All Students → Show all students in the database.
-✅ Display Size → Show the total number of students in the database.
-✅ Clear Database → Remove all student records.
-✅ Exit → Close the program.
+<h2>⚡ Features</h2>
+<ul>
+  <li>✅ <strong>Insert Student</strong> → Add student ID & grade to the database.</li>
+  <li>✅ <strong>Delete Student</strong> → Remove a student using their ID.</li>
+  <li>✅ <strong>Search Student</strong> → Find a student by their ID and display their grade.</li>
+  <li>✅ <strong>Update Grade</strong> → Modify the grade of an existing student.</li>
+  <li>✅ <strong>Display All Students</strong> → Show all students and their details.</li>
+  <li>✅ <strong>Display Size</strong> → Show the total number of students.</li>
+  <li>✅ <strong>Clear Database</strong> → Remove all student records.</li>
+  <li>✅ <strong>Exit</strong> → Close the program.</li>
+</ul>
 
-🛠 How to Run the Program
-🔹 Steps to Compile and Run (Using g++)
-1️⃣ Open a terminal or command prompt.
-2️⃣ Navigate to the folder where the file is saved.
-3️⃣ Compile the program using:
+<h2>🛠 How to Run the Program</h2>
+<h3>🔹 Steps to Compile and Run (Using g++)</h3>
+<ol>
+  <li>Open a <strong>terminal</strong> or <strong>command prompt</strong>.</li>
+  <li>Navigate to the folder where the file is saved.</li>
+  <li>Compile the program using:
+    <pre>g++ -o student_db student_db.cpp</pre>
+  </li>
+  <li>Run the program using:
+    <pre>./student_db</pre>
+  </li>
+</ol>
 
-sh
-Copy
-Edit
-g++ -o student_db student_db.cpp
-4️⃣ Run the program using:
-
-sh
-Copy
-Edit
-./student_db
-📌 Usage Example
-🔹 Menu Example
-mathematica
-Copy
-Edit
+<h2>📌 Usage Example</h2>
+<h3>🔹 Menu Example</h3>
+<pre>
 Menu:
 1. Insert Student
 2. Delete Student
@@ -49,23 +44,30 @@ Enter your choice: 1
 Enter student ID: 101
 Enter student grade: 88.5
 Student with ID 101 and grade 88.5 inserted.
-🔧 Technologies Used
-C++ (Standard Template Library - STL)
-unordered_map (for fast data access)
-📂 File Structure
-bash
-Copy
-Edit
+</pre>
+
+<h2>🔧 Technologies Used</h2>
+<ul>
+  <li>C++ (Standard Template Library - STL)</li>
+  <li>unordered_map (for fast data access)</li>
+</ul>
+
+<h2>📂 File Structure</h2>
+<pre>
 /StudentDatabase
 │── student_db.cpp   # Main source code file
 │── README.md        # Documentation file
-🛠 Future Enhancements
-🚀 Add file handling to store data permanently.
-🚀 Implement sorting for student records.
-🚀 Add GPA calculation based on multiple subjects.
+</pre>
 
-📜 License
-This project is open-source. Feel free to use, modify, and contribute!
+<h2>🛠 Future Enhancements</h2>
+<ul>
+  <li>🚀 Add file handling to store data permanently.</li>
+  <li>🚀 Implement sorting for student records.</li>
+  <li>🚀 Add GPA calculation based on multiple subjects.</li>
+</ul>
 
-💡 Conclusion
-This project provides a simple, efficient, and interactive way to manage student records using C++. The use of unordered_map ensures fast search, insertion, and deletion operations, making it suitable for small-scale educational applications.
+<h2>📜 License</h2>
+<p>This project is open-source. Feel free to use, modify, and contribute!</p>
+
+<h2>💡 Conclusion</h2>
+<p>This system provides an efficient and interactive way to manage student records in C++ using unordered_map for fast operations like insertion, search, and deletion. Ideal for small-scale educational applications.</p>
